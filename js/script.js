@@ -37,3 +37,25 @@ var friends = ["serena", "nick", "sarah", "jiaren", "max", "moomoo"]
 for (let i = 0; i < friends.length; i++) {
 	console.log(friends[i])
 }
+
+//function declaration 
+function cars () {
+	var cars = ["toyota", "subaru", "nissan", "honda", "tesla", "porsche"]
+	for (let i = 0; i < cars.length; i++) {
+		console.log(cars[i])
+	}
+}
+cars()
+var jsBtn = document.getElementById('js-btn')
+jsBtn.addEventListener("click", cars)
+
+//function expression
+var foo = function(firstNum, secondNum){
+	return firstNum + secondNum
+}
+foo(6,7)
+var sum = foo(6,7)
+
+
+
+
